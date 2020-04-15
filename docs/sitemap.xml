@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://no9.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/rapidly-extend-a-fastify-app-with-crud-apis-from-loopback</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/debugging-rust-with-vscode-on-freebsd</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/post-mortem-debugging-for-node-js-on-freebsd</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/vue-js-with-browserify-on-bluemix</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/kore-io-on-bluemix-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/modular-c-apis-with-kore-io-and-dotc</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/chromiumify-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/chromiumify-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/sinopia-on-open-indiana</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/dtrace-flamegraphs-for-freebsd-and-node-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/node-js-on-open-indiana</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/programming/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/programming/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/nodejs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/fastify/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/loopback/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/rust/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/freebsd/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/olly/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/vuejs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/koreio/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/c/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/chromeapp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/tags/javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/categories/tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/author/anton/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://no9.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>

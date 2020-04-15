@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Toilet Sync</title>
+    <link rel="stylesheet" href="css/canvas.css" type="text/css" />
+    <script type="text/javascript" src="js/Lattice.js"></script>
+    <script type="text/javascript" src="js/SyncRuleSet.js"></script>
+</head>
+<body>
+<table>
+	<tr>
+		<td class="lefttd">
+			<h1>Simple Sync</h1>
+			<h2>Based on the text in chapter 1 of Sync by Steven Strogatz</h2>
+            <div>1. Start with a randomly shaded set of circles.</div>
+            <div>2. Each circle decreases its tone by 1/8th of its current shade until it turns black.</div>
+            <div>3. When it is black it passes 1/9 of its total tone to its 9 nieghbours and sets its self to white.</div>
+            <div>4. Wait for a minute or so.</div>
+            <div>5. Most of the time a single pulse is emited from a single "leader" but occasionally 2 or more leaders arise. A pulse still occurs still lead by a dominent one the less leader refuses to give in.</div>
+            <div><a href="http://www.youtube.com/embed/sROKYelaWbo" target="_new_window">Notice how fireflies do not fire at the same time but in waves</div>
+            </div>
+		</td>
+		<td><br />
+			<canvas id="canvas" width="780" height="780" class="center_box"></canvas>
+		</td>
+	</tr>
+</table>
+
+<script type="text/javascript">
+    var lattice = new Lattice(8, document.getElementById('canvas'));
+    var ruleSet = new SyncRuleSet(lattice.siteList, 8, 8);
+    var i;
+
+    window.setInterval(render, 100);
+
+    function render() {
+        lattice.paintCanvas();
+        ruleSet.tick();
+        lattice.siteList = ruleSet.field.slice(0);
+    }
+
+    //render();
+
+</script>
+</body>
+</html>

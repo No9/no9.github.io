@@ -1,0 +1,13 @@
+{
+  "uid": "anton",
+  "name": "Anton Whalley",
+  "image": "https://avatars2.githubusercontent.com/u/130940?s=460&v=4",
+  "url": "http://gatsbyjs.org/",
+  "location": "Dublin, Ireland",
+  "bio": "",
+  "socialUrls": [
+    "https://github.com/No9",
+    "https://twitter.com/dhigit9",
+    "mailto:anton@venshare.com"
+  ]
+}

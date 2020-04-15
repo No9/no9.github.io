@@ -1,0 +1,31 @@
+body
+{
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:Black;
+    color:White;
+}
+td
+{
+    vertical-align:top;
+}
+a 
+{
+        color:#e3c13a;
+        text-decoration:underline;
+}
+
+.linkitem
+{
+    padding: 5px 5px 5px 5px;
+}
+.center_box
+{
+    border:2px solid #1a1a1a;
+}
+
+.lefttd
+{
+    width:400px;
+    /*border-right:2px solid #1a1a1a;*/
+}
