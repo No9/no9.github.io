@@ -51,7 +51,7 @@ npm install vueify --save-dev
 First thing we are going to do is create a node.js application on bluemix. Simply [visit this link and click create](https://console.ng.bluemix.net/catalog/starters/sdk-for-nodejs?taxonomyNavigation=apps)
 
 Once this is complete got to the overview section and enable continuous delivery. This will create a github repository for you and will automatically deploy when you push to master.
-![Enable Continuous Delivery](/content/images/2017/04/enable-deploy-tools.png)
+![Enable Continuous Delivery](images/2017/04/enable-deploy-tools.png)
 
 Now we need to clone the github repo that you have just created as part of the enabling continuous integration. 
 
@@ -154,6 +154,6 @@ $ node app
 ```
 And browsing to the localhost address in the console output should give. 
 
-![vue output](/content/images/2017/04/vueout.png)
+![vue output](images/2017/04/vueout.png)
 
 In the next post I will setup the watchify piece for automatic page refreshes during development and what needs to be done to put the package in production. 

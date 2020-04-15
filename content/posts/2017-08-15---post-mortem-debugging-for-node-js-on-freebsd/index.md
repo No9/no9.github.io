@@ -17,7 +17,7 @@ cover: "./images/post-mortem-freebsd.png"
 A few months ago I was talking to [nomadlogicLA](https://twitter.com/nomadlogicLA) on twitter about managing node.js processes on FreeBSD.
 
 The obstacle that nomadlogic was trying to get around was how to handle a node.js process that kept stopping due to memory issues.
-![](/content/images/2017/08/Motivation.png)
+![](images/2017/08/Motivation.png)
 
 The problem was overcome by restarting the process. 
 

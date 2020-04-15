@@ -47,7 +47,7 @@ $ chromiumify run chrome-app
 
 The above command should show this screen. 
 
-{<2>}![Initial Screen](http://i.imgur.com/EWcTOy9.png)
+{<2>}![Initial Screen](./images/EWcTOy9.png)
 
 
 Now you have the base application up lets publish it to NPM

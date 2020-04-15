@@ -25,7 +25,7 @@ I was so quick completing the work that I thought I would share what I did with 
 For those not familiar with [Fastify](https://www.fastify.io/) it's a fast, low overhead web framework focusing on high resource utilisation with a strong focus on developer experience.
 
 [Loopback 4](https://loopback.io/) is a complete API development system and can host APIs as a standalone project but it is very extensible and easy to integrate with your favourite node.js web framework. Loopback 4 also provides a lot of automation to take the chores out API development as well as providing a solid footing for best practices such as generated API definitions.
-![](/content/images/2019/07/API-Utility.png)
+![](images/2019/07/API-Utility.png)
 
 
 The following is a set of steps to explain how I got there but if you want to jump to the finished service just jump here [fastify-loopback-example](https://github.com/No9/fastify-loopback-example)
@@ -301,7 +301,7 @@ The explorer will be available at
 http://localhost:3000/api/explorer/
 And the Notes should be available at the endpoint
 http://localhost:3000/api/notes 
-![Final Output](/content/images/2019/07/note-json.png)
+![Final Output](images/2019/07/note-json.png)
 
 If you have made it this far thanks a lot for following and please ask any questions to [@dhigit9 on twitter](https://twitter.com/dhigit9).
 Also a big thanks to [Miroslav](https://twitter.com/bajtos) for helping with the "Tweak"

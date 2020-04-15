@@ -25,7 +25,7 @@ The source code is available [here](https://github.com/chromiumify/hello-world-p
 
 **The only prerequisits are that you have a [node.js](node.js) runtime installed.** 
 
-{<1>}![Sample Hello World in an emulator](./images/uvxPTnG.png)
+![Sample Hello World in an emulator](./images/uvxPTnG.png)
 
 ### Let's Go!!
 To start lets install chromiumify

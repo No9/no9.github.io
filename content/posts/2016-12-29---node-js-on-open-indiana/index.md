@@ -64,59 +64,59 @@ sudo apt-get install virtualbox
 The [OpenIndiana Build 151a7 Desktop DVD (32/64-bit x86), 811M](http://dlc.openindiana.org/isos/151a7/oi-dev-151a7-live-x86.iso) was used for the steps that follow.   
 
 2. Run VirtualBox and create a new image you should be presented with the following screen: 
-![Create VM](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM1.png "Create VM") 
+![Create VM](./images/CreateVM1.png "Create VM") 
 
 3. Set your memory size ( I am using around 3Gb) 
-![Select Memory](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM2.png "Select Memory") 
+![Select Memory](./images/CreateVM2.png "Select Memory") 
 
 4. Create a virtual Hard drive
-![Select Memory](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM3.png "Select Memory") 
+![Select Memory](./images/CreateVM3.png "Select Memory") 
 
 5. Take the default hard drive file type 
-![Hard Drive Type](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM4.png "Hard Drive Type") 
+![Hard Drive Type](./images/CreateVM4.png "Hard Drive Type") 
 
 6. Storage on physical device is set to fixed size
-![Physical Device Storage](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM5.png "Physical Device Storage") 
+![Physical Device Storage](./images/CreateVM5.png "Physical Device Storage") 
 
 7. Select location and size of the device. There was issues with the default here so make sure to give it plenty of space. 
-![Location and Size](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM6.png "Location and size") 
+![Location and Size](./images/CreateVM6.png "Location and size") 
 
 8. You are now ready to start
-![Start](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM7.png "Start") 
+![Start](./images/CreateVM7.png "Start") 
 
 9. When you select start you will be prompted for an ISO. Use the one you downloaded in step 1. 
-![Select ISO](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM8.png "Select ISO") 
+![Select ISO](./images/CreateVM8.png "Select ISO") 
 
 10. Select the first option in the boot up screen. 
-![Select First Option](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM9.png "Select First Option") 
+![Select First Option](./images/CreateVM9.png "Select First Option") 
 
 11. Select the Keyboard. 
-![Keyboard Layout](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM10.png "Keyboard Layout") 
+![Keyboard Layout](./images/CreateVM10.png "Keyboard Layout") 
 
 
 12. Select a language. 
-![Language](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM11.png "Language") 
+![Language](./images/CreateVM11.png "Language") 
 
 13. You will now be presented with a desktop. 
-![Desktop](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM12.png "Desktop") 
+![Desktop](./images/CreateVM12.png "Desktop") 
 
 14. As you are in effect running a live CD you now need to install the OS onto your virtual hard drive so click the "Install OpenIndiana" desktop item.  
-![Desktop Install](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM13.png "Install") 
+![Desktop Install](./images/CreateVM13.png "Install") 
 
 15. Use the whole disk.  
-![Whole Disk](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM14.png "Whole Disk") 
+![Whole Disk](./images/CreateVM14.png "Whole Disk") 
 
 16. Select the correct time zone.  
-![Time Zone](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM15.png "Time Zone") 
+![Time Zone](./images/CreateVM15.png "Time Zone") 
 
 17. Select the prefered locale.  
-![Locale](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM16.png "Locale") 
+![Locale](./images/CreateVM16.png "Locale") 
 
 18. Create root password and add a user. It is strongly recommended that your create a user along with root.  
-![Users](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM17.png "Users") 
+![Users](./images/CreateVM17.png "Users") 
 
 19. Review and Click Install  
-![Install](https://s3-eu-west-1.amazonaws.com/openindianainstallimages/CreateVM18.png "Install") 
+![Install](./images/CreateVM18.png "Install") 
 
 20. When the machine reboots do make sure that you select "Boot from Hard Disk" instead of the default option used in Step 10.
 
@@ -263,6 +263,6 @@ For ssh configuration see [https://help.github.com/articles/generating-ssh-keys]
 
 Now that you are fully setup you should be able to run through the [famous flamegraph article](http://blog.nodejs.org/2012/04/25/profiling-node-js/).
 
-![flamegraph](http://dtrace.org/blogs/dap/files/2012/04/helloworld-flamegraph-550x366.png "flamegraph") 
+![flamegraph](./images/helloworld-flamegraph-550x366.png "flamegraph") 
 
 Until next time. Code On! 

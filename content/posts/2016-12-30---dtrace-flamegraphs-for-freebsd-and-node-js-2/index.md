@@ -41,8 +41,7 @@ In order to configure your FreeBSD instance to utilize this feature make the fol
 `# portsnap fetch`<br/>
 `# portsnap extract`<br/> 
 `# cd /usr/ports/www/node6`<br/>
-`# make install clean` - Choose the following options
-![](/content/images/2016/12/node-options.png)
+`# make install clean` - Choose the default options
 1. npm is also required  
 `# cd /usr/ports/www/npm3` <br/>
 `# make install clean`<br />
